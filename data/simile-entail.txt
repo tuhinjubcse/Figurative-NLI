@@ -98,8 +98,6 @@
 {'premise': 'On your way to work, you notice the world is like a drugged out patient.', 'hypothesis': 'On your way to work, you notice the world is unnaturally stormy', 'label': 'not_entailment'}
 {'premise': 'The news hit me like a Mack truck.', 'hypothesis': 'The news hit me hard', 'label': 'entailment'}
 {'premise': 'The news hit me like a Mack truck.', 'hypothesis': 'The news hit me gently', 'label': 'not_entailment'}
-
-
 {'premise': 'The secret is you can rewind time like a held breath.', 'hypothesis': 'The secret is you can rewind time a few seconds into the past', 'label': 'entailment'}
 {'premise': 'The secret is you can rewind time like a held breath.', 'hypothesis': 'The secret is you can rewind time a few seconds into the future', 'label': 'not_entailment'}
 {'premise': 'Rory looked at her as if she were a madwoman.', 'hypothesis': 'Rory looked at her as if she were crazy', 'label': 'entailment'}
@@ -149,11 +147,17 @@
 {'premise': "Maybe you'll give Valhalla a try, the possibilities are like a ladder to the heavens.", 'hypothesis': "Maybe you'll give Valhalla a try, the possibilities are limited", 'label': 'not_entailment'}
 {'premise': 'Trying to rationalize the situation eventually becomes like trapping a bird in a cage.', 'hypothesis': 'Trying to rationalize the situation eventually becomes troublesome', 'label': 'entailment'}
 {'premise': 'Her relationships with family and friends are like puzzles with missing pieces.', 'hypothesis': 'Her relationships with family and friends are very difficult', 'label': 'entailment'}
+{'premise': 'Her relationships with family and friends are like puzzles with missing pieces.', 'hypothesis': 'Her relationships with family and friends are very easy', 'label': 'not_entailment'}
 {'premise': 'The things that wait in between the two are like Scylla and Charybdas.', 'hypothesis': 'The things that wait in between the two are unpleasant', 'label': 'entailment'}
+{'premise': 'The things that wait in between the two are like Scylla and Charybdas.', 'hypothesis': 'The things that wait in between the two are beautiful', 'label': 'not_entailment'}
 {'premise': 'The images flashed in the brilliance that covered him like a plush blanket', 'hypothesis': 'The images flashed in the brilliance that covered him warm', 'label': 'entailment'}
+{'premise': 'The images flashed in the brilliance that covered him like a plush blanket', 'hypothesis': 'The images flashed in the brilliance that covered him cold', 'label': 'not_entailment'}
 {'premise': 'The sound hit Frank like a discordant cacaphony.', 'hypothesis': 'The sound hit Frank loud enough to make your ear hurt', 'label': 'entailment'}
+{'premise': 'The sound hit Frank like a discordant cacaphony.', 'hypothesis': 'The sound hit Frank softly', 'label': 'not_entailment'}
 {'premise': 'When you confront him about it, he is like the perfectly ignorant boyfriend.', 'hypothesis': 'When you confront him about it, he is absolutely astounded', 'label': 'entailment'}
+{'premise': 'When you confront him about it, he is like the perfectly ignorant boyfriend.', 'hypothesis': 'When you confront him about it, he is absolutely unconcerned', 'label': 'not_entailment'}
 {'premise': 'A global catastrophe causes all major technology to be rendered like burned ashes.', 'hypothesis': 'A global catastrophe causes all major technology to be rendered useless', 'label': 'entailment'}
+{'premise': 'A global catastrophe causes all major technology to be rendered like burned ashes.', 'hypothesis': 'A global catastrophe causes all major technology to be rendered useful', 'label': 'not_entailment'}
 {'premise': "Until you notice their eyes are glowing like a black cat's.", 'hypothesis': 'Until you notice their eyes are glowing green', 'label': 'entailment'}
 {'premise': 'Panic is sweeping through the streets like an ambitious virus.', 'hypothesis': 'Panic is sweeping through the streets contagiously', 'label': 'entailment'}
 {'premise': "No matter how many times you try you're always like a sloth at a racetrack.", 'hypothesis': "No matter how many times you try you're always too slow", 'label': 'entailment'}
@@ -202,6 +206,7 @@
 {'premise': 'When the prophet told you that all your dreams would come true, you were like a kid in an infinite candy store.', 'hypothesis': 'When the prophet told you that all your dreams would come true, you were ecstatic', 'label': 'entailment'}
 {'premise': 'You are the final boss of a videogame and are like the king of a mighty empire.', 'hypothesis': 'You are the final boss of a videogame and are unbeaten', 'label': 'entailment'}
 {'premise': 'The images flashed in the brilliance that covered him like the beating sun.', 'hypothesis': 'The images flashed in the brilliance that covered him warm', 'label': 'entailment'}
+{'premise': 'The images flashed in the brilliance that covered him like the beating sun.', 'hypothesis': 'The images flashed in the brilliance that covered him cold', 'label': 'not_entailment'}
 {'premise': 'Streaks of electricity cackled through the air, swirling around and around like Lovecraftian tentacles.', 'hypothesis': 'Streaks of electricity cackled through the air, swirling around and around dangerous', 'label': 'entailment'}
 {'premise': "You're the only one who notices, but you're remarkably like a cool professional.", 'hypothesis': "You're the only one who notices, but you're remarkably unfazed", 'label': 'entailment'}
 {'premise': 'Drinking it will either kill you, or grant you strength and abilities like a complete alter ago.', 'hypothesis': 'Drinking it will either kill you, or grant you strength and abilities unimaginable', 'label': 'entailment'}
@@ -212,6 +217,7 @@
 {'premise': 'The horse, who understands the conversation, is like an insulted guest.', 'hypothesis': 'The horse, who understands the conversation, is quite offended', 'label': 'entailment'}
 {'premise': 'They were visible to all, but like worn ancient tablets full of heiroglyphics.', 'hypothesis': 'They were visible to all, but inscrutable', 'label': 'entailment'}
 {'premise': 'When you confront him about it, he is like a beffudled toddler.', 'hypothesis': 'When you confront him about it, he is absolutely astounded', 'label': 'entailment'}
+{'premise': 'When you confront him about it, he is like a beffudled toddler.', 'hypothesis': 'When you confront him about it, he is absolutely unconcerned', 'label': 'not_entailment'}
 {'premise': 'Navigating fantasy "Japan" has proven very difficult', 'hypothesis': 'Navigating fantasy "Japan" has proven very difficult', 'label': 'entailment'}
 {'premise': 'In the dead of summer, in Ohio, the clothes felt like wet wool.', 'hypothesis': 'In the dead of summer, in Ohio, the clothes felt hot and humid', 'label': 'entailment'}
 {'premise': 'The old van in the field is like a stiff sweatshirt.', 'hypothesis': 'The old van in the field is almost comfortable', 'label': 'entailment'}
@@ -319,6 +325,7 @@
 {'premise': 'It was red, like a blooming rose.', 'hypothesis': 'It was red, beautiful', 'label': 'entailment'}
 {'premise': 'The words cut through the air like a hot iron sharpening skirt pleats.', 'hypothesis': 'The words cut through the air crisply', 'label': 'entailment'}
 {'premise': 'Her relationships with family and friends are like a tightrope walk.', 'hypothesis': 'Her relationships with family and friends are very difficult', 'label': 'entailment'}
+{'premise': 'Her relationships with family and friends are like a tightrope walk.', 'hypothesis': 'Her relationships with family and friends are very easy', 'label': 'not_entailment'}
 {'premise': "You're the only one who notices, but you're remarkably like a level-headed pilot.", 'hypothesis': "You're the only one who notices, but you're remarkably unfazed", 'label': 'entailment'}
 {'premise': 'Telling lies to the young is like breaking an oath.', 'hypothesis': 'Telling lies to the young is wrong', 'label': 'entailment'}
 {'premise': 'Navigating fantasy "Japan" has proven like a maze full of sudden combat.', 'hypothesis': 'Navigating fantasy "Japan" has proven very difficult', 'label': 'entailment'}
