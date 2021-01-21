@@ -72,7 +72,6 @@
 {"premise": 'After taking a pill, you suddenly realize that it all was like predestination.', "hypothesis": 'After taking a pill, you suddenly realize that it all was unintentional', "label": 'not_entailment'}
 {"premise": 'In the dead of summer, in Ohio, the clothes felt like melting rubber.', "hypothesis": 'In the dead of summer, in Ohio, the clothes felt hot and humid', "label": 'entailment'}
 {"premise": 'In the dead of summer, in Ohio, the clothes felt like melting rubber.', "hypothesis": 'In the dead of summer, in Ohio, the clothes felt cold and dry', "label": 'not_entailment'}
-{"premise": 'In the dead of summer, in Ohio, the clothes felt like melting rubber.', "hypothesis": 'In the dead of summer, in Ohio, the clothes felt cool', "label": 'not_entailment'}
 {"premise": 'Your dog is very excited to see you and is acting like a hyperactive sloth.', "hypothesis": 'Your dog is very excited to see you and acting quite peculiar', "label": 'entailment'}
 {"premise": 'Your dog is very excited to see you and is acting like a hyperactive sloth.', "hypothesis": 'Your dog is very excited to see you and acting quite normal', "label": 'not_entailment'}
 {"premise": 'You wake up to find that is like a hibernating forest.', "hypothesis": 'You wake up to find that is unusually quiet', "label": 'entailment'}
@@ -246,6 +245,7 @@
 {"premise": 'When the prophet told you that all your dreams would come true, you were like a kid in an infinite candy store.', "hypothesis": 'When the prophet told you that all your dreams would come true, you were ecstatic', "label": 'entailment'}
 {"premise": 'When the prophet told you that all your dreams would come true, you were like a kid in an infinite candy store.', "hypothesis": 'When the prophet told you that all your dreams would come true, you were miserable', "label": 'not_entailment'}
 {"premise": 'You are the final boss of a videogame and are like the king of a mighty empire.', "hypothesis": 'You are the final boss of a videogame and are unbeaten', "label": 'entailment'}
+{"premise": 'You are the final boss of a videogame and are like the king of a mighty empire.', "hypothesis": 'You are the final boss of a videogame and are defeated', "label": 'not_entailment'}
 {"premise": 'The images flashed in the brilliance that covered him like the beating sun.', "hypothesis": 'The images flashed in the brilliance that covered him warm', "label": 'entailment'}
 {"premise": 'The images flashed in the brilliance that covered him like the beating sun.', "hypothesis": 'The images flashed in the brilliance that covered him cold', "label": 'not_entailment'}
 {"premise": 'Streaks of electricity cackled through the air, swirling around and around like Lovecraftian tentacles.', "hypothesis": 'Streaks of electricity cackled through the air, swirling around and around dangerous', "label": 'entailment'}
@@ -361,6 +361,7 @@
 {"premise": 'On your way to work, you notice the world is like a hushed preschool classroom.', "hypothesis": 'On your way to work, you notice the world is unnaturally calm', "label": 'entailment'}
 {"premise": 'On your way to work, you notice the world is like a hushed preschool classroom.', "hypothesis": 'On your way to work, you notice the world is unnaturally stormy', "label": 'not_entailment'}
 {"premise": 'Her neck was like the smooth curve of a pearl.', "hypothesis": 'Her neck was beautiful', "label": 'entailment'}
+{"premise": 'Her neck was like the smooth curve of a pearl.', "hypothesis": 'Her neck was ugly', "label": 'not_entailment'}
 {"premise": "Friends' bars are almost full while strangers' are like dwindling smartphone batteries.", "hypothesis": "Friends' bars are almost full while strangers' are half-filled", "label": 'entailment'}
 {"premise": "Friends' bars are almost full while strangers' are like dwindling smartphone batteries.", "hypothesis": "Friends' bars are almost full while strangers' are filled", "label": 'not_entailment'}
 {"premise": "We have learned that the ending of the Earth is imminent like a blak hole's event horizon.", "hypothesis": 'We have learned that the ending of the Earth is imminent and unavoidable', "label": 'entailment'}
@@ -388,6 +389,7 @@
 {"premise": "It seems like he's just really charismatic, until his demands become gradually like a megolamaniac's.", "hypothesis": "It seems like he's just really charismatic, until his demands become gradually more unhinged", "label": 'entailment'}
 {"premise": "It seems like he's just really charismatic, until his demands become gradually like a megolamaniac's.", "hypothesis": "It seems like he's just really charismatic, until his demands become gradually more stable", "label": 'not_entailment'}
 {"premise": 'Unfortunately, their ideas about your past life are like unfounded teenage rumors.', "hypothesis": 'Unfortunately, their ideas about your past life are hilariously inaccurate', "label": 'entailment'}
+{"premise": 'Unfortunately, their ideas about your past life are like unfounded teenage rumors.', "hypothesis": 'Unfortunately, their ideas about your past life are pretty accurate', "label": 'not_entailment'}
 {"premise": 'You have no idea why people suddenly have become like lepers.', "hypothesis": 'You have no idea why people suddenly have become sick', "label": 'entailment'}
 {"premise": 'You have no idea why people suddenly have become like lepers.', "hypothesis": 'You have no idea why people suddenly have become healthy', "label": 'not_entailment'}
 {"premise": 'Then there weren’t any more parties as the house became like stone.', "hypothesis": 'Then there weren’t any more parties as the house became silent', "label": 'entailment'}
@@ -397,57 +399,83 @@
 {"premise": "A rather mundane day changes when you unearth something like a ghost's treasure.", "hypothesis": 'A rather mundane day changes when you unearth something quite interesting', "label": 'entailment'}
 {"premise": "A rather mundane day changes when you unearth something like a ghost's treasure.", "hypothesis": 'A rather mundane day changes when you unearth something quite boring', "label": 'not_entailment'}
 {"premise": 'To the superhero they are keeping the people and the world like well-watched children.', "hypothesis": 'To the superhero they are keeping the people and the world safe', "label": 'entailment'}
+{"premise": 'To the superhero they are keeping the people and the world like well-watched children.', "hypothesis": 'To the superhero they are keeping the people and the world unsafe', "label": 'not_entailment'}
 {"premise": 'Amen has fascinating joyful dreams every night, while his real life is like a perpetual thunderstorm of misuer.', "hypothesis": 'Amen has fascinating joyful dreams every night, while his real life is unbearable', "label": 'entailment'}
 {"premise": 'Amen has fascinating joyful dreams every night, while his real life is like a perpetual thunderstorm of misuer.', "hypothesis": 'Amen has fascinating joyful dreams every night, while his real life is fantastic', "label": 'not_entailment'}
 {"premise": 'But when we made contact with them they were like shy kindergarteners.', "hypothesis": 'But when we made contact with them they were very hesitant', "label": 'entailment'}
+{"premise": 'But when we made contact with them they were like shy kindergarteners.', "hypothesis": 'But when we made contact with them they were very confident', "label": 'not_entailment'}
 {"premise": 'We see billionaires with full meters and homeless people like hollowed shells.', "hypothesis": 'We see billionaires with full meters and homeless people completely empty', "label": 'entailment'}
 {"premise": 'We see billionaires with full meters and homeless people like hollowed shells.', "hypothesis": 'We see billionaires with full meters and homeless people completely full', "label": 'not_entailment'}
 {"premise": 'My eyes teared up and I could feel my face turning like a bruised tomato.', "hypothesis": 'My eyes teared up and I could feel my face turning red', "label": 'entailment'}
 {"premise": 'My eyes teared up and I could feel my face turning like a bruised tomato.', "hypothesis": 'My eyes teared up and I could feel my face turning white', "label": 'not_entailment'}
 {"premise": 'The door seemed impenetrable, like a ring of assassins.', "hypothesis": 'The door seemed impenetrable, dangerous', "label": 'entailment'}
+{"premise": 'The door seemed impenetrable, like a ring of assassins.', "hypothesis": 'The door seemed impenetrable, harmless', "label": 'not_entailment'}
 {"premise": 'Keaton was lying face down on the ground like a snapped twig.', "hypothesis": 'Keaton was lying face down on the ground lamely', "label": 'entailment'}
+{"premise": 'Keaton was lying face down on the ground like a snapped twig.', "hypothesis": 'Keaton was lying face down on the ground able-bodied', "label": 'not_entailment'}
 {"premise": 'You decline but the man is like a cocky salesman.', "hypothesis": 'You decline but the man is persistent', "label": 'entailment'}
 {"premise": 'You decline but the man is like a cocky salesman.', "hypothesis": 'You decline but the man is irresolute', "label": 'not_entailment'}
 {"premise": "We're starting to discover life is like an endless road.", "hypothesis": "We're starting to discover life is oddly permanent", "label": 'entailment'}
 {"premise": "We're starting to discover life is like an endless road.", "hypothesis": "We're starting to discover life is temporary", "label": 'not_entailment'}
 {"premise": 'Milton scrunched his eyes and moodily turned back to his computer like a man in a sailless boat without oars.', "hypothesis": 'Milton scrunched his eyes and moodily turned back to his computer helpless', "label": 'entailment'}
+{"premise": 'Milton scrunched his eyes and moodily turned back to his computer like a man in a sailless boat without oars.', "hypothesis": 'Milton scrunched his eyes and moodily turned back to his computer confidently', "label": 'not_entailment'}
 {"premise": 'I made quick work of one with my knife and slipped inside like a stealthy ninja.', "hypothesis": 'I made quick work of one with my knife and slipped inside undetected', "label": 'entailment'}
+{"premise": 'I made quick work of one with my knife and slipped inside like a stealthy ninja.', "hypothesis": 'I made quick work of one with my knife and slipped inside but detected', "label": 'not_entailment'}
 {"premise": 'Seemingly honorable it would be easy to mistake you as a knight in shining armor.', "hypothesis": 'Seemingly honorable it would be easy to mistake you as chivalrous', "label": 'entailment'}
+{"premise": 'Seemingly honorable it would be easy to mistake you as a knight in shining armor.', "hypothesis": 'Seemingly honorable it would be easy to mistake you as rude', "label": 'not_entailment'}
 {"premise": 'In the near future e-sports have become extremely popular and like a lucrative stock investment.', "hypothesis": 'In the near future e-sports have become extremely popular and equally profitable', "label": 'entailment'}
+{"premise": 'In the near future e-sports have become extremely popular and like a lucrative stock investment.', "hypothesis": 'In the near future e-sports have become extremely popular and equally non-profitable', "label": 'not_entailment'}
 {"premise": 'A few weeks later, a letter arrives, explaining that you are like a daisy in a field of sunflowers.', "hypothesis": 'A few weeks later, a letter arrives, explaining that you are unique', "label": 'entailment'}
+{"premise": 'A few weeks later, a letter arrives, explaining that you are like a daisy in a field of sunflowers.', "hypothesis": 'A few weeks later, a letter arrives, explaining that you are common', "label": 'not_entailment'}
 {"premise": 'You are the final boss of a videogame and are like a reining champion.', "hypothesis": 'You are the final boss of a videogame and are unbeaten', "label": 'entailment'}
+{"premise": 'You are the final boss of a videogame and are like a reining champion.', "hypothesis": 'You are the final boss of a videogame and are defeated', "label": 'not_entailment'}
 {"premise": 'I wander like an unrequited lover.', "hypothesis": 'I wander hopelessly', "label": 'entailment'}
+{"premise": 'I wander like an unrequited lover.', "hypothesis": 'I wander optimistically', "label": 'not_entailment'}
 {"premise": 'Until you notice their eyes are glowing like celestial emeralds.', "hypothesis": 'Until you notice their eyes are glowing green', "label": 'entailment'}
 {"premise": 'Until you notice their eyes are glowing like celestial emeralds.', "hypothesis": 'Until you notice their eyes are glowing pink', "label": 'not_entailment'}
 {"premise": 'The man’s pale skin appeared human, but appearances were like a trick mirror.', "hypothesis": 'The man’s pale skin appeared human, but appearances were extremely deceptive', "label": 'entailment'}
 {"premise": 'The man’s pale skin appeared human, but appearances were like a trick mirror.', "hypothesis": 'The man’s pale skin appeared human, but appearances were extremely honest', "label": 'not_entailment'}
 {"premise": 'I live like a CEO with diamond-studded sneakers.', "hypothesis": 'I live wealthily', "label": 'entailment'}
+{"premise": 'I live like a CEO with diamond-studded sneakers.', "hypothesis": 'I live poorly', "label": 'not_entailment'}
 {"premise": 'They were well-cooked, and actually tasted like how a symphony sounds.', "hypothesis": 'They were well-cooked, and actually tasted nice', "label": 'entailment'}
+{"premise": 'They were well-cooked, and actually tasted like how a symphony sounds.', "hypothesis": 'They were well-cooked, and actually tasted bad', "label": 'not_entailment'}
 {"premise": 'Then there weren’t any more parties as the house became like an abandoned museum.', "hypothesis": 'Then there weren’t any more parties as the house became silent', "label": 'entailment'}
+{"premise": 'Then there weren’t any more parties as the house became like an abandoned museum.', "hypothesis": 'Then there weren’t any more parties as the house became noisy', "label": 'not_entailment'}
 {"premise": 'The bottom of the ocean is dark, like a dungeon in a fortress of shadows.', "hypothesis": 'The bottom of the ocean is dark, scary', "label": 'entailment'}
+{"premise": 'The bottom of the ocean is dark, like a dungeon in a fortress of shadows.', "hypothesis": 'The bottom of the ocean is dark, calming', "label": 'not_entailment'}
 {"premise": 'After finding a strange mask on the beach, you become suddenly more like the celebrities you envied.', "hypothesis": 'After finding a strange mask on the beach, you become suddenly more rich and famous', "label": 'entailment'}
 {"premise": 'After finding a strange mask on the beach, you become suddenly more like the celebrities you envied.', "hypothesis": 'After finding a strange mask on the beach, you become suddenly more poor', "label": 'not_entailment'}
 {"premise": "Last night you learned from your wife that lucid dreams are like hen's teeth.", "hypothesis": 'Last night you learned from your wife that lucid dreams are very rare', "label": 'entailment'}
 {"premise": "Last night you learned from your wife that lucid dreams are like hen's teeth.", "hypothesis": 'Last night you learned from your wife that lucid dreams are very common', "label": 'not_entailment'}
 {"premise": "The door seemed impenetrable, like a murderer's heart.", "hypothesis": 'The door seemed impenetrable, dangerous', "label": 'entailment'}
+{"premise": "The door seemed impenetrable, like a murderer's heart.", "hypothesis": 'The door seemed impenetrable, harmless', "label": 'not_entailment'}
 {"premise": 'The news hit me like a ton of bricks.', "hypothesis": 'The news hit me hard', "label": 'entailment'}
+{"premise": 'The news hit me like a ton of bricks.', "hypothesis": 'The news hit me softly', "label": 'not_entailment'}
 {"premise": "We're starting to discover life is like an immovable mountain.", "hypothesis": "We're starting to discover life is oddly permanent", "label": 'entailment'}
+{"premise": "We're starting to discover life is like an immovable mountain.", "hypothesis": "We're starting to discover life is oddly temporary", "label": 'not_entailment'}
 {"premise": 'A few weeks later, a letter arrives explaining that you are like a diamond in the rough.', "hypothesis": 'A few weeks later, a letter arrives, explaining that you are unique', "label": 'entailment'}
+{"premise": 'A few weeks later, a letter arrives explaining that you are like a diamond in the rough.', "hypothesis": 'A few weeks later, a letter arrives, explaining that you are common', "label": 'not_entailment'}
 {"premise": 'It was red, like a blooming rose.', "hypothesis": 'It was red, beautiful', "label": 'entailment'}
+{"premise": 'It was red, like a blooming rose.', "hypothesis": 'It was red, ugly', "label": 'not_entailment'}
 {"premise": 'The words cut through the air like a hot iron sharpening skirt pleats.', "hypothesis": 'The words cut through the air crisply', "label": 'entailment'}
+{"premise": 'The words cut through the air like a hot iron sharpening skirt pleats.', "hypothesis": 'The words cut through the air softly', "label": 'not_entailment'}
 {"premise": 'Her relationships with family and friends are like a tightrope walk.', "hypothesis": 'Her relationships with family and friends are very difficult', "label": 'entailment'}
 {"premise": 'Her relationships with family and friends are like a tightrope walk.', "hypothesis": 'Her relationships with family and friends are very easy', "label": 'not_entailment'}
 {"premise": "You're the only one who notices, but you're remarkably like a level-headed pilot.", "hypothesis": "You're the only one who notices, but you're remarkably unfazed", "label": 'entailment'}
 {"premise": "You're the only one who notices, but you're remarkably like a level-headed pilot.", "hypothesis": "You're the only one who notices, but you're remarkably anxious", "label": 'not_entailment'}
 {"premise": 'Telling lies to the young is like breaking an oath.', "hypothesis": 'Telling lies to the young is wrong', "label": 'entailment'}
+{"premise": 'Telling lies to the young is like breaking an oath.', "hypothesis": 'Telling lies to the young is correct', "label": 'not_entailment'}
 {"premise": 'Navigating fantasy "Japan" has proven like a maze full of sudden combat.', "hypothesis": 'Navigating fantasy "Japan" has proven very difficult', "label": 'entailment'}
+{"premise": 'Navigating fantasy "Japan" has proven like a maze full of sudden combat.', "hypothesis": 'Navigating fantasy "Japan" has proven very easy', "label": 'not_entailment'}
 {"premise": 'It makes Hunger Games look like a Play-Doh commercial.', "hypothesis": 'It makes Hunger Games look silly', "label": 'entailment'}
 {"premise": 'It makes Hunger Games look like a Play-Doh commercial.', "hypothesis": 'It makes Hunger Games look serious', "label": 'not_entailment'}
 {"premise": 'To the superhero, they are keeping the people and the world like a precious treasure.', "hypothesis": 'To the superhero they are keeping the people and the world safe', "label": 'entailment'}
+{"premise": 'To the superhero, they are keeping the people and the world like a precious treasure.', "hypothesis": 'To the superhero they are keeping the people and the world unsafe', "label": 'not_entailment'}
 {"premise": 'Streaks of electricity cackled through the air, swirling around and around like a tango with Death itself.', "hypothesis": 'Streaks of electricity cackled through the air, swirling around and around dangerous', "label": 'entailment'}
 {"premise": 'Streaks of electricity cackled through the air, swirling around and around like a tango with Death itself.', "hypothesis": 'Streaks of electricity cackled through the air, swirling around and around calmly', "label": 'not_entailment'}
 {"premise": 'But when we made contact with them they were like shy little girls.', "hypothesis": 'But when we made contact with them they were very hesitant', "label": 'entailment'}
+{"premise": 'But when we made contact with them they were like shy little girls.', "hypothesis": 'But when we made contact with them they were very confident', "label": 'not_entailment'}
 {"premise": 'You are an oracle whose predictions have always come like highly researched hypotheses.', "hypothesis": 'You are an oracle whose predictions have always come true', "label": 'entailment'}
+{"premise": 'You are an oracle whose predictions have always come like highly researched hypotheses.', "hypothesis": 'You are an oracle whose predictions have always come false', "label": 'not_entailment'}
 {"premise": 'The knocking on the door was more assertive now, more like a woman who knows what she wants.', "hypothesis": 'The knocking on the door was more assertive now, more confident', "label": 'entailment'}
 {"premise": 'The knocking on the door was more assertive now, more like a woman who knows what she wants.', "hypothesis": 'The knocking on the door was more assertive now, more underconfident', "label": 'not_entailment'}
 {"premise": 'But the next morning, it sounds like a cat couching up a furball.', "hypothesis": 'But the next morning, it sounds terrible', "label": 'entailment'}
@@ -455,7 +483,9 @@
 {"premise": 'Off she went like a ballistic missile.', "hypothesis": 'Off she went destructive', "label": 'entailment'}
 {"premise": 'Off she went like a ballistic missile.', "hypothesis": 'Off she went constructive', "label": 'not_entailment'}
 {"premise": "The bottom of the ocean is dark, like a villain's lair.", "hypothesis": 'The bottom of the ocean is dark, scary', "label": 'entailment'}
+{"premise": "The bottom of the ocean is dark, like a villain's lair.", "hypothesis": 'The bottom of the ocean is dark, calming', "label": 'not_entailment'}
 {"premise": 'It was obscene, but she was drawn to it, like it was a bad boy in a leather jacket.', "hypothesis": 'It was obscene, but she was drawn to it, fascinated', "label": 'entailment'}
+{"premise": 'It was obscene, but she was drawn to it, like it was a bad boy in a leather jacket.', "hypothesis": 'It was obscene, but she was drawn to it, repelled', "label": 'not_entailment'}
 {"premise": 'They had shut him in a basement that looked like an overstuffed sardine can.', "hypothesis": 'They had shut him in a basement that looked dangerously claustrophobic', "label": 'entailment'}
 {"premise": 'They had shut him in a basement that looked like an overstuffed sardine can.', "hypothesis": 'They had shut him in a basement that looked open and unrestricted', "label": 'not_entailment'}
 {"premise": 'A character knows that their universe is fictional, but everyone thinks they are like a raving Cassandra.', "hypothesis": 'A character knows that their universe is fictional, but everyone thinks they are crazy', "label": 'entailment'}
@@ -471,13 +501,16 @@
 {"premise": 'As they touch the ground, they are lost childhood memories.', "hypothesis": 'As they touch the ground, they are forgotten', "label": 'entailment'}
 {"premise": 'As they touch the ground, they are lost childhood memories.', "hypothesis": 'As they touch the ground, they are remembered', "label": 'not_entailment'}
 {"premise": 'They all agree the books are good reads, but they are like flamingoes in Antartica.', "hypothesis": 'They all agree the books are good reads, but they are too unrealistic', "label": 'entailment'}
+{"premise": 'They all agree the books are good reads, but they are like flamingoes in Antartica.', "hypothesis": 'They all agree the books are good reads, but they are too realistic', "label": 'not_entailment'}
 {"premise": 'The predators never anticipated their enemies would be this much like titanium.', "hypothesis": 'The predators never anticipated their enemies would be this indestructible', "label": 'entailment'}
 {"premise": 'The predators never anticipated their enemies would be this much like titanium.', "hypothesis": 'The predators never anticipated their enemies would be easily destructible', "label": 'not_entailment'}
 {"premise": 'After 10 minutes your head becomes like the morning fog.', "hypothesis": 'After 10 minutes your head becomes fuzzy', "label": 'entailment'}
+{"premise": 'After 10 minutes your head becomes like the morning fog.', "hypothesis": 'After 10 minutes your head becomes clear', "label": 'not_entailment'}
 {"premise": 'Pain shoots out like a spiraling firecracker.', "hypothesis": 'Pain shoots out loud', "label": 'entailment'}
 {"premise": 'Pain shoots out like a spiraling firecracker.', "hypothesis": 'Pain shoots out softly', "label": 'not_entailment'}
 {"premise": 'Last night you learned from your wife that lucid dreams are like sunny days in London.', "hypothesis": 'Last night you learned from your wife that lucid dreams are very rare', "label": 'entailment'}
-{"premise": 'Last night you learned from your wife that lucid dreams are like sunny days in London.', "hypothesis": 'Last night you learned from your wife that lucid dreams are very common', "label": 'entailment'}
+{"premise": 'Last night you learned from your wife that lucid dreams are like sunny days in London.', "hypothesis": 'Last night you learned from your wife that lucid dreams are very common', "label": 'not_entailment'}
+{"premise": "Her neck was like a vampire's dream.", "hypothesis": 'Her neck was ugly', "label": 'not_entailment'}
 {"premise": "Her neck was like a vampire's dream.", "hypothesis": 'Her neck was beautiful', "label": 'entailment'}
 {"premise": 'The city was like the crown jewel of the state.', "hypothesis": 'The city was beautiful', "label": 'entailment'}
 {"premise": 'The city was like the crown jewel of the state.', "hypothesis": 'The city was ugly', "label": 'not_entailment'}
@@ -550,11 +583,11 @@
 {"premise": 'Reincarnation has been proven, memories are now like items in the school lost and found.', "hypothesis": 'Reincarnation has been proven, memories are now retrievable', "label": 'entailment'}
 {"premise": 'Reincarnation has been proven, memories are now like items in the school lost and found.', "hypothesis": 'Reincarnation has been proven, memories are now irredeemable', "label": 'not_entailment'}
 {"premise": 'Keaton was lying face down on the ground like a maimed animal.', "hypothesis": 'Keaton was lying face down on the ground lamely', "label": 'entailment'}
-{"premise": 'Keaton was lying face down on the ground like a maimed animal.', "hypothesis": 'Keaton was lying face down on the ground bravely', "label": 'not_entailment'}
+{"premise": 'Keaton was lying face down on the ground like a maimed animal.', "hypothesis": 'Keaton was lying face down on the ground able_bodied', "label": 'not_entailment'}
 {"premise": 'The sound of his own blood sounds like nails on a chalkboard.', "hypothesis": 'The sound of his own blood sounds ear - splitting', "label": 'entailment'}
 {"premise": 'The sound of his own blood sounds like nails on a chalkboard.', "hypothesis": 'The sound of his own blood sounds soothing', "label": 'not_entailment'}
-{"premise": 'Their nuclear program however, has fallen like a chopped tree in a field.', "hypothesis": 'Their nuclear program however, has fallen uneven', "label": 'not_entailment'}
 {"premise": 'Their nuclear program however, has fallen like a chopped tree in a field.', "hypothesis": 'Their nuclear program however, has fallen flat', "label": 'entailment'}
+{"premise": 'Their nuclear program however, has fallen like a chopped tree in a field.', "hypothesis": 'Their nuclear program however, has fallen uneven', "label": 'not_entailment'}
 {"premise": "Describe your 'real' self in third person without sounding like a prima donna.", "hypothesis": "Describe your 'real' self in third person without sounding arrogant", "label": 'entailment'}
 {"premise": "Describe your 'real' self in third person without sounding like a prima donna.", "hypothesis": "Describe your 'real' self in third person without sounding polite", "label": 'not_entailment'}
 {"premise": 'At that point, it could spread like wild fire.', "hypothesis": 'At that point, it could spread infectiously', "label": 'entailment'}
