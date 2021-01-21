@@ -257,8 +257,9 @@
 {"premise": 'Amen has fascinating joyful dreams every night, while his real life is like a more miserable plotline.', "hypothesis": 'Amen has fascinating joyful dreams every night, while his real life is unbearable', "label": 'entailment'}
 {"premise": 'Amen has fascinating joyful dreams every night, while his real life is like a more miserable plotline.', "hypothesis": 'Amen has fascinating joyful dreams every night, while his real life is fantastic', "label": 'not_entailment'}
 {"premise": 'Milton scrunched his eyes and moodily turned back to his computer like a damsel in distress.', "hypothesis": 'Milton scrunched his eyes and moodily turned back to his computer helpless', "label": 'entailment'}
+{"premise": 'Milton scrunched his eyes and moodily turned back to his computer like a damsel in distress.', "hypothesis": 'Milton scrunched his eyes and moodily turned back to his computer confidently', "label": 'not_entailment'}
 {"premise": 'Unfortunately, you have a "spiritual disorder", and your luck is almost always like a dried-up puddle.', "hypothesis": 'Unfortunately, you have a "spiritual disorder", and your luck is almost always incredibly low', "label": 'entailment'}
-{"premise": 'Unfortunately, you have a "spiritual disorder", and your luck is almost always like a dried-up puddle.', "hypothesis": 'Unfortunately, you have a "spiritual disorder", and your luck is almost always gii', "label": 'entailment'}
+{"premise": 'Unfortunately, you have a "spiritual disorder", and your luck is almost always like a dried-up puddle.', "hypothesis": 'Unfortunately, you have a "spiritual disorder", and your luck is almost always high', "label": 'not_entailment'}
 {"premise": 'You are an oracle whose predictions have always come like the rising sun.', "hypothesis": 'You are an oracle whose predictions have always come true', "label": 'entailment'}
 {"premise": 'You are an oracle whose predictions have always come like the rising sun.', "hypothesis": 'You are an oracle whose predictions have always come false', "label": 'not_entailment'}
 {"premise": 'The horse, who understands the conversation, is like an insulted guest.', "hypothesis": 'The horse, who understands the conversation, is quite offended', "label": 'entailment'}
@@ -276,6 +277,7 @@
 {"premise": 'He was executed the next day, and Sparrow was declared like a slain soldier.', "hypothesis": 'He was executed the next day, and Sparrow was declared dead', "label": 'entailment'}
 {"premise": 'He was executed the next day, and Sparrow was declared like a slain soldier.', "hypothesis": 'He was executed the next day, and Sparrow was declared alive', "label": 'not_entailment'}
 {"premise": 'They put up a brave face as governments become more like a dystopia.', "hypothesis": 'They put up a brave face as governments become increasingly authoritarian', "label": 'entailment'}
+{"premise": 'They put up a brave face as governments become more like a dystopia.', "hypothesis": 'They put up a brave face as governments become increasingly liberal', "label": 'not_entailment'}
 {"premise": "No matter how many times you try you're always like the early bird's worm.", "hypothesis": "No matter how many times you try you're always too slow", "label": 'entailment'}
 {"premise": "No matter how many times you try you're always like the early bird's worm.", "hypothesis": "No matter how many times you try you're always too fast", "label": 'not_entailment'}
 {"premise": 'For centuries, the Tyrant has made life like a dreary prison.', "hypothesis": 'For centuries, the Tyrant has made life miserable', "label": 'entailment'}
@@ -343,10 +345,13 @@
 {"premise": 'Trying to rationalize the situation eventually becomes like an ever-complicated equation.', "hypothesis": 'Trying to rationalize the situation eventually becomes troublesome', "label": 'entailment'}
 {"premise": 'Trying to rationalize the situation eventually becomes like an ever-complicated equation.', "hypothesis": 'Trying to rationalize the situation eventually becomes easy', "label": 'not_entailment'}
 {"premise": 'If it falls into the wrong hands it would be like a nuclear apocalyse.', "hypothesis": 'If it falls into the wrong hands it would be catastrophic', "label": 'entailment'}
+{"premise": 'If it falls into the wrong hands it would be like a nuclear apocalyse.', "hypothesis": 'If it falls into the wrong hands it would be beneficial', "label": 'not_entailment'}
 {"premise": 'Nobody notices until your body is found, like a stiff corpse.', "hypothesis": 'Nobody notices until your body is found, dead', "label": 'entailment'}
+{"premise": 'Nobody notices until your body is found, like a stiff corpse.', "hypothesis": 'Nobody notices until your body is found, alive', "label": 'not_entailment'}
 {"premise": 'As you approach him, his eyes begin to shed tears that appear like trembling stars.', "hypothesis": 'As you approach him, his eyes begin to shed tears that appear luminescent', "label": 'entailment'}
+{"premise": 'As you approach him, his eyes begin to shed tears that appear like trembling stars.', "hypothesis": 'As you approach him, his eyes begin to shed tears that appear dull', "label": 'not_entailment'}
 {"premise": 'The surface of Mars was blossoming like a garden in spring.', "hypothesis": 'The surface of Mars was blossoming beautifully', "label": 'entailment'}
-{"premise": 'The surface of Mars was blossoming like a garden in spring.', "hypothesis": 'The surface of Mars was blossoming unplesantly', "label": 'not_entailment'}
+{"premise": 'The surface of Mars was blossoming like a garden in spring.', "hypothesis": 'The surface of Mars was blossoming dismally', "label": 'not_entailment'}
 {"premise": 'Having a thin figure, he looked like a dry, overgrown blade of grass.', "hypothesis": 'Having a thin figure, he looked unpleasant', "label": 'entailment'}
 {"premise": 'Having a thin figure, he looked like a dry, overgrown blade of grass.', "hypothesis": 'Having a thin figure, he looked beautiful', "label": 'not_entailment'}
 {"premise": 'Hitler skittered off like a dog with its tail between its legs.', "hypothesis": 'Hitler skittered off slow', "label": 'entailment'}
