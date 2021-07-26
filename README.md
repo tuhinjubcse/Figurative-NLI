@@ -1,4 +1,4 @@
-Code for ACL Findings paper "Figurative Language in Recognizing Textual Entailment"
+Code for ACL Findings paper Figurative Language in Recognizing Textual Entailment ( https://aclanthology.org/2021.findings-acl.297/ )
 
 # Figurative-NLI
 
